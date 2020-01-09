@@ -4,9 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
     <title>Portfolio</title>
   </head>
   <body>
+
+
 
     <nav class="navbar navbar-default">
       <div class="container-fluid">
@@ -25,7 +33,6 @@
     </nav>
 
     <ol>
-        <li>Name</li>
         <li>Brief Bio</li>
         <li>header</li>
         <li>section element</li>
@@ -37,9 +44,83 @@
 
     <p>I am a senior student at Portland State University studying Computer Science.</p>
 
-    <p>I am currently looking for an internship to broaden my level of experience prior to formally joining the workforce within industry. I am a solid team player and an avid learner that can bring a creative and unique perspective when collaborating with others. I find the field of Computer Science fascinating in that the only real limit is our own imagination and look forward to having many creative experiences with it.
-    </p>  
+    <p>I am currently looking for an internship to broaden my level of experience prior
+    to formally joining the workforce within industry. I am a solid team player and an avid
+    learner that can bring a creative and unique perspective when collaborating with others.
+    I find the field of Computer Science fascinating in that the only real limit is our own
+    imagination and look forward to having many creative experiences with it.</p>
+
     <p>Please view this short autobiography for greater detail.</p>
+
+
+    <!-- Contact-->
+    <section id="contact" class="contact-section contact">
+        <div class="container">
+          <header class="text-center">
+            <h2 class="title">Get In Touch</h2>
+          </header>
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <form id="contact-form" method="GET">
+                <div class="messages"></div>
+                <div class="controls">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <input type="text" name="first_name" placeholder="Your firstname *" required="required" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" name="last_name" placeholder="Your lastname *" required="required" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" name="email" placeholder="Your email *" required="required" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" name="telephone" placeholder="Your phone number" class="form-control">
+                    </div>
+                    <div class="col-md-12">
+                      <textarea name="comments" placeholder="Message for me *" rows="4" required="required" class="form-control"></textarea>
+                    </div>
+                    <div class="col-md-12 text-center">
+                      <!-- <a href="contact.php" type="submit" value="Submit" class="btn btn-outline-primary" role="button">Send message</a>-->
+      <a href="https://github.com/cteters/cteters.github.io" type="submit" value="Submit" class="btn btn-outline-primary" role="button">Send message</a>
+  
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="main-footer">
+        <div class="container">
+      
+            <div class="text-center">
+            <p class="social">
+              <a href="https://twitter.com/Christeters" target="_link"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/Cteters79" target="_link" ><i class="fa fa-facebook"></i></a>
+              <a href="https://github.com/cteters" target="_link" ><i class="fa fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/cteters/" target="_link" ><i class="fa fa-linkedin"></i></a>
+              <a href="mailto:cteters@gmail.com" ><i class="fa fa-envelope"></i></a>
+            </p>
+            </div>
+      
+          <div class="row">
+            <div class="col-md-6 text-left text-white">
+              Last updated in January of 2020
+            </div>
+            <div class="col-md-6 text-right text-lg-right text-white">
+      
+      
+            <p><a href="https://getbootstrap.com/" target="_link">Powered by &nbsp;<img src="img/bootstrap-stack.png" align="right" alt="Bootstrap" width="25" height="25"/></p>
+      
+      
+      
+            </div>
+          </div>
+        </div>
+      </footer>
 
     </body>
 </html>
