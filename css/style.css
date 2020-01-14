@@ -1,5 +1,23 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Roboto Slab", serif;
+  color: inherit;
+}
+
 h1 {
     color: #2b90d9;
+    font-weight: bold;
+    font-size: 40px;
 
 }
   
@@ -8,15 +26,27 @@ h2 {
 }
   
 h3 {
-    color: #000;
+    color: #555;
+    display: inline-block;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    text-transform: uppercase;
 }
 
 h4 {
-    color: #ccc;
+    color: #f5f5f5;
+    display: inline-block;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    text-transform: uppercase;
 }
 
 h5 {
-    color: orange;
+    color: #ccc;
 }
 
 h6 {
@@ -32,5 +62,3 @@ footer.main-footer {
     padding: 60px 0;
     background: #222;
 }
-
-  
