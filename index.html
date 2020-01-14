@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    -->
 
-    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
+
+
+
   </head>
   <body>
 
@@ -90,65 +111,104 @@
     </section>
 
     <!-- Testimonials-->
-    <section id="testimonials" class="testimonials-section bg-gray">
+
+    <div id="testimonials" class="testimonials-section bg-gray">
+
       <div class="container">
         <header class="text-center mb-2">
           <h2 class="title">Positive Feedback<br><span>about me</span></h2>
           <p class="lead">Some recent feedback I have received from my supervisors.</p>
         </header>
-        <ul testimonials>
-          <li class="item">
-            <div class="testimonial full-height">
+        
+
+
+        <div id="testimonials" class="carousel slide" data-ride="carousel">
+        
+        
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#testimonials" data-slide-to="0" class="active"></li>
+            <li data-target="#testimonials" data-slide-to="1"></li>
+            <li data-target="#testimonials" data-slide-to="2"></li>
+          </ul>
+
+
+          <!-- Slideshow -->
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
               <div class="text">
-                <p>Christopher was able to competently tutor multiple CS classes and quickly became a sought- after resource. His strengths of clear communication, attention to detail, and coding knowhow were essential to ensuring that the Academic Computer Lab provided quality tutoring.</p>
+                <p>
+                   Christopher was able to competently tutor multiple CS classes and quickly became a
+                   sought- after resource. His strengths of clear communication, attention to detail, 
+                   and coding knowhow were essential to ensuring that the Academic Computer Lab provided 
+                   quality tutoring.
+                </p>
+                <div class="bottom">
+                  <div class="icon"><i class="fa fa-quote-left"></i></div>
+                  <div class="name-picture">
+                    <address>
+                      <h5>
+                        <a href="mailto:josh.aman@clackamas.edu">Josh Aman </a>
+                      </h5>
+                    </address>
+                    <p>Coordinator, Tutoring and Academic Computer Lab</p>
+                  </div>
+                </div>
               </div>
-              <div class="bottom">
-                <div class="icon"><i class="fa fa-quote-left"></i></div>
-                <div class="name-picture">
-                  <address>
+            </div>
+
+            <div class="carousel-item">
+              <div class="text">
+                <p>
+                   Demonstrated exceptional technical proficiency within all facets of the Cavalry Scout
+                   realm; exhibited the uncanny ability to instruct as per field manual in an effective 
+                   and informative matter.
+                </p>
+                <div class="bottom">
+                  <div class="icon"><i class="fa fa-quote-left"></i></div>
+                  <div class="name-picture">
                     <h5>
-                      <a href="mailto:josh.aman@clackamas.edu">Josh Aman </a>
+                      <a href="mailto:kyleroe@gmail.com">1LT Roe, Kyle</a>
                     </h5>
-                  </address>
-                  <p>Coordinator, Tutoring and Academic Computer Lab</p>
+                    <p>Annual Evalution</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </li>
-          <li class="item">
-            <div class="testimonial full-height">
-              <div class="text">
-                <p>Demonstrated exceptional technical proficiency within all facets of the Cavalry Scout realm; exhibited the uncanny ability to instruct as per field manual in an effective and informative matter.</p>
-              </div>
-              <div class="bottom">
-                <div class="icon"><i class="fa fa-quote-left"></i></div>
-                <div class="name-picture">
-                  <h5>
-                    <a href="mailto:kyleroe@gmail.com">1LT Roe, Kyle</a>
-                  </h5>
-                  <p>Annual Evalution</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="item">
-            <div class="testimonial full-height">
-              <div class="text">
-                <p>Badged and tracked over 600 personnel, enabling the occupants of the camp to perform their mission. Sergeant Teters was recognized by Task Force members for his excellent customer service in the execution of his duties. While working with the contractors and local nationals, he fostered a meaningful, long lasting, and trusting relationship which improved the security of the camp.</p>
-              </div>
-              <div class="bottom">
-                <div class="icon"><i class="fa fa-quote-left"></i></div>
-                <div class="name-picture">
-                  <h5>
-                    <a href="mailto:justin.l.neville.mil@mail.mil">1LT Neville, Justin</a>
-                  </h5>
-                  <p>Army Commendation Medal</p>
-                </div>
+            
+            <div class="carousel-item">
+              <p>
+                Badged and tracked over 600 personnel, enabling the occupants of the camp to perform 
+                their mission. Sergeant Teters was recognized by Task Force members for his excellent 
+                customer service in the execution of his duties. While working with the contractors 
+                and local nationals, he fostered a meaningful, long lasting, and trusting relationship 
+                which improved the security of the camp.
+             </p>
+             <div class="bottom">
+              <div class="icon"><i class="fa fa-quote-left"></i></div>
+              <div class="name-picture">
+                <h5>
+                  <a href="mailto:justin.l.neville.mil@mail.mil">1LT Neville, Justin</a>
+                </h5>
+                <p>Army Commendation Medal</p>
               </div>
             </div>
-          </li>
-        </ul>
+            </div>
+
+          </div>
+
+      <!-- controls-->
+        <a class="carousel-control-prev" href="#testimonials" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonials" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
       </div>
+    </div>
+  
+    </div>
     </section>
 
     <!-- Contact-->
