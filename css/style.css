@@ -1,0 +1,36 @@
+h1 {
+    color: #2b90d9;
+
+}
+  
+h2 {
+    color: #f5f5f5;
+}
+  
+h3 {
+    color: #000;
+}
+
+h4 {
+    color: #ccc;
+}
+
+h5 {
+    color: orange;
+}
+
+h6 {
+    color: #2b90d9;
+}
+
+#services {
+    background-color: #56a7e1;
+
+}
+
+footer.main-footer {
+    padding: 60px 0;
+    background: #222;
+}
+
+  
