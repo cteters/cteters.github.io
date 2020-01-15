@@ -28,6 +28,7 @@ h2 {
 h3 {
     color: #555;
     display: inline-block;
+    font-size: x-large;
     padding: 10px 0;
     text-align: center;
     border-bottom: solid 1px #ccc;
@@ -38,6 +39,7 @@ h3 {
 h4 {
     color: #f5f5f5;
     display: inline-block;
+    font-size: 300%;
     padding: 10px 0;
     text-align: center;
     border-bottom: solid 1px #ccc;
@@ -53,10 +55,20 @@ h6 {
     color: #2b90d9;
 }
 
+title {
+    font-size: 300%;
+}
+
 #services {
     background-color: #56a7e1;
 
 }
+
+#testimonials {
+    background-color: #f5f5f5;
+}
+
+
 
 footer.main-footer {
     padding: 60px 0;
