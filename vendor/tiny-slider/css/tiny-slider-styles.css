@@ -7,39 +7,9 @@ li {
   margin: 0;
   padding: 0;
 }
-/*.container {
-  max-width: 900px;
-  margin: 0 auto;
-}*/
+
 pre[class*="language-"] > code[data-language] {
   overflow: auto !important;
-}
-section {
-  margin: 50px 0;
-}
-
-p {
-  margin: 0;
-  padding: 0.8em 0;
-  line-height: 1.4;
-  font-weight: 300;
-  text-align: center;
-}
-a:focus {
-  outline: 1px solid red;
-}
-img {
-  max-width: 100%;
-}
-img:not(.tns-lazy-img),
-.lazyload img {
-  height: auto;
-}
-.autoWidth img {
-  max-width: none;
-}
-.autoHeight img {
-  width: 100%;
 }
 
 .visually-hidden {
@@ -55,17 +25,7 @@ img:not(.tns-lazy-img),
 .controls {
   text-align: center;
 }
-.controls li {
-  display: block;
-  position: absolute;
-  top: 50%;
-  height: 60px;
-  line-height: 60px;
-  margin-top: -30px;
-  padding: 0 15px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
+
 .controls li img {
   display: inline-block;
   vertical-align: middle;
@@ -142,42 +102,10 @@ img:not(.tns-lazy-img),
 .wrapper {
   padding: 0 5em;
 }
-.suite-container .title,
-.suite-container .subtitle,
-.suite-container li {
-  padding: 5px 10px;
-}
-.suite-container li {
-  font-size: 12px;
-  line-height: 1.4;
-  background: #f5f5f5;
-}
-.suite-container .title {
-  font-size: 14px;
-  font-weight: bold;
-  background: #8acac6;
-  text-transform: capitalize;
-}
-.suite-container .subtitle {
-  font-size: 13px;
-  font-weight: bold;
-  background: #dedede;
-  text-transform: capitalize;
-}
-.suite-container .fail {
-  background: #ffade2;
-}
 
 /* reset prism */
 pre[class*="language-"] {
   margin: 0;
-}
-
-/* test results */
-.test-results {
-  line-height: 1.4;
-  padding: 20px 10%;
-  background-color: #f2f2f2;
 }
 
 /* go to */
@@ -206,54 +134,4 @@ pre[class*="language-"] {
   color: #fff;
   background-color: #333;
   cursor: pointer;
-}
-
-/* test results */
-.test-results {
-  line-height: 1.6;
-}
-.test-results .title {
-  font-weight: bold;
-  text-transform: capitalize;
-}
-.test-results .title:nth-child(n + 2) {
-  margin-top: 1em;
-}
-.test-results [class*="item"] {
-  margin-left: 1em;
-  font-size: 0.9em;
-}
-.test-results [class*="item"] {
-  font-weight: 300;
-}
-.test-results [class*="item"]:after {
-  margin-left: 0.5em;
-}
-.test-results .item-success {
-  color: #0eb80e;
-}
-.test-results .item-success:after {
-  content: "✓";
-}
-.test-results .item-fail {
-  color: #ed1e1e;
-}
-.test-results .item-fail:after {
-  content: "✗";
-}
-.test-results .item-comment {
-  font-style: italic;
-  color: #666;
-}
-.test-results .item-notsure:after {
-  content: "？";
-}
-.test-results .item-running:after {
-  display: inline-block;
-  height: 16px;
-  content: url("../images/pinwheel.svg");
-  vertical-align: middle;
-}
-.customize-tools [hidden] {
-  display: none;
 }
