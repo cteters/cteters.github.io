@@ -95,7 +95,9 @@ h4 {
 }
 
 h5 {
-  color: #ccc;
+  color: #3c65d1;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 title {
